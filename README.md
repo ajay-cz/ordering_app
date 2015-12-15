@@ -10,18 +10,18 @@ An Ordering App
     ```
     cd <YOUR_DRIVE>\ordering_app\src
     http-server
-    ```
-
-    ```
-        Starting up http-server, serving ./
-        Available on:
-        http:10.171.70.238:8080
-        http:127.0.0.1:8080
-        Hit CTRL-C to stop the server
+    Starting up http-server, serving ./
+    Available on:
+    http:10.171.70.238:8080
+    http:127.0.0.1:8080
+    Hit CTRL-C to stop the server
+   ```
   4. From your browser hit 127.0.0.1:8080
 
 Note:
 To add a link to a page:
 add a html page to partials and in the anchor tag, specify role="page-nav" href="/home"
 eg.,
+```html
 <a role="page-nav" href="/home" id="home">
+```

@@ -19,7 +19,8 @@ $(document).ready(function () {
                 // Highlights the corresponding link
                 $('a[role=page-nav]').parents().removeClass('active');
                 $(clicked_link).parent().addClass('active');
-//                window.history.pushState(null, "", link);
+                // Primitive Version of Pushstate
+                window.history.pushState(null, "", link);
             }).fail(function( jqXHR, textStatus, errorThrown){
                 if (jqXHR && jqXHR.status === 404) {
                     alert(link + '.html Not Found under partials directory ! Check https://github.com/ajay-cz/ordering_app/wiki/Rules-to-follow')
