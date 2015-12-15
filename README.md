@@ -7,18 +7,17 @@ An Ordering App
   2. Run the following command: npm install http-server -g
 
   3. Download the source code from github and then from command prompt:
-```cd <YOUR_DRIVE>\ordering_app\src
-http-server
-```
-------------
-```
-Starting up http-server, serving ./
-Available on:
-  http:10.171.70.238:8080
-  http:127.0.0.1:8080
-Hit CTRL-C to stop the server
-```
-------------------------
+    ```
+    cd <YOUR_DRIVE>\ordering_app\src
+    http-server
+    ```
+
+    ```
+        Starting up http-server, serving ./
+        Available on:
+        http:10.171.70.238:8080
+        http:127.0.0.1:8080
+        Hit CTRL-C to stop the server
   4. From your browser hit 127.0.0.1:8080
 
 Note:
